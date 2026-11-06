@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.omrbranch.runner.TestRunnerClass
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.30 s -- in com.omrbranch.runner.TestRunnerClass

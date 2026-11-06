@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.omrbranch.runner.TestRunnerClass" time="18.295" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Karthick M\eclipse-workspace\OMRBranchAPIAutomation\target\test-classes;C:\Users\Karthick M\eclipse-workspace\OMRBranchAPIAutomation\target\classes;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-junit\7.34.3\cucumber-junit-7.34.3.jar;C:\Users\Karthick M\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\Karthick M\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Karthick M\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.0\jackson-databind-2.22.0.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.0\jackson-core-2.22.0.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Karthick M\.m2\repository\net\masterthought\cucumber-reporting\5.11.0\cucumber-reporting-5.11.0.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.21.2\jackson-datatype-jsr310-2.21.2.jar;C:\Users\Karthick M\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\Karthick M\.m2\repository\joda-time\joda-time\2.14.1\joda-time-2.14.1.jar;C:\Users\Karthick M\.m2\repository\org\apache\commons\commons-configuration2\2.13.0\commons-configuration2-2.13.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\Karthick M\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\commons\commons-text\1.15.0\commons-text-1.15.0.jar;C:\Users\Karthick M\.m2\repository\org\jsoup\jsoup\1.22.1\jsoup-1.22.1.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20260313.1\owasp-java-html-sanitizer-20260313.1.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20260313.1\java8-shim-20260313.1.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20260313.1\java10-shim-20260313.1.jar;C:\Users\Karthick M\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Karthick M\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.17\jcl-over-slf4j-2.0.17.jar;C:\Users\Karthick M\.m2\repository\org\projectlombok\lombok\1.18.46\lombok-1.18.46.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\Karthick M\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\Karthick M\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Karthick M\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Karthick M\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Karthick M\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Karthick M\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Karthick M\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Karthick M\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Karthick M\AppData\Local\Temp\surefire1084424441643405522\surefirebooter-20261030201540214_3.jar C:\Users\Karthick M\AppData\Local\Temp\surefire1084424441643405522 2026-10-30T20-15-40_109-jvmRun1 surefire-20261030201540214_1tmp surefire_0-20261030201540214_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Karthick M\eclipse-workspace\OMRBranchAPIAutomation\target\test-classes;C:\Users\Karthick M\eclipse-workspace\OMRBranchAPIAutomation\target\classes;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-junit\7.34.3\cucumber-junit-7.34.3.jar;C:\Users\Karthick M\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-core\7.34.3\cucumber-core-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-gherkin\7.34.3\cucumber-gherkin-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.3\cucumber-gherkin-messages-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\messages-ndjson\0.3.2\messages-ndjson-0.3.2.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\datatable\7.34.3\datatable-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-plugin\7.34.3\cucumber-plugin-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\docstring\7.34.3\docstring-7.34.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\Karthick M\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Karthick M\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Karthick M\.m2\repository\io\cucumber\cucumber-java\7.34.3\cucumber-java-7.34.3.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.22.0\jackson-databind-2.22.0.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.22\jackson-annotations-2.22.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.22.0\jackson-core-2.22.0.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Karthick M\.m2\repository\net\masterthought\cucumber-reporting\5.11.0\cucumber-reporting-5.11.0.jar;C:\Users\Karthick M\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.21.2\jackson-datatype-jsr310-2.21.2.jar;C:\Users\Karthick M\.m2\repository\org\apache\velocity\velocity-engine-core\2.4.1\velocity-engine-core-2.4.1.jar;C:\Users\Karthick M\.m2\repository\joda-time\joda-time\2.14.1\joda-time-2.14.1.jar;C:\Users\Karthick M\.m2\repository\org\apache\commons\commons-configuration2\2.13.0\commons-configuration2-2.13.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\Karthick M\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\commons\commons-text\1.15.0\commons-text-1.15.0.jar;C:\Users\Karthick M\.m2\repository\org\jsoup\jsoup\1.22.1\jsoup-1.22.1.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20260313.1\owasp-java-html-sanitizer-20260313.1.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20260313.1\java8-shim-20260313.1.jar;C:\Users\Karthick M\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20260313.1\java10-shim-20260313.1.jar;C:\Users\Karthick M\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\Karthick M\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.17\jcl-over-slf4j-2.0.17.jar;C:\Users\Karthick M\.m2\repository\org\projectlombok\lombok\1.18.46\lombok-1.18.46.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\Karthick M\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\Karthick M\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Karthick M\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Karthick M\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Karthick M\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Karthick M\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Karthick M\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Karthick M\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\Karthick M\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\Karthick M\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Karthick M"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Karthick M\eclipse-workspace\OMRBranchAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Karthick M\AppData\Local\Temp\surefire1084424441643405522\surefirebooter-20261030201540214_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.11+9-LTS-211"/>
+    <property name="user.name" value="Karthick M"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Karthick M\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KARTHI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="C:\Users\Karthick M\eclipse-workspace\OMRBranchAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.11\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-26.0.1\bin;C:\Softwares\apache-maven-3.9.16-bin\apache-maven-3.9.16\bin;C:\Users\Karthick M\AppData\Local\Microsoft\WindowsApps;C:\Softwares\platform-tools;C:\Softwares\cmdline-tools\latest\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\Karthick M\AppData\Roaming\npm;C:\Users\Karthick M\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-21.0.11\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.11+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Get User logtoken from login endpoint" classname="User Login and Token Retrieval" time="3.121">
+    <system-out><![CDATA[
+@Login
+&amp#27;[1mScenario:&amp#27;[22m Get User logtoken from login endpoint                                                        &amp#27;[90m# src/test/resources/features/TC001_Login.feature:6&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser adds required login headers&amp#27;[39m                                                             &amp#27;[90m# com.omrbranch.stepdefinition.TC001_LoginStep.user_adds_required_login_headers()&amp#27;[39m
+karthickmuthu43@gmail.com
+Karthick@123
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser adds basic authentication for login&amp#27;[39m                                                      &amp#27;[90m# com.omrbranch.stepdefinition.TC001_LoginStep.user_adds_basic_authentication_for_login()&amp#27;[39m
+{
+    "status": 200,
+    "message": "Login successfully",
+    "data": {
+        "id": 834,
+        "user_code": "USRDZI8g",
+        "first_name": "Karthick",
+        "last_name": "Marimuthu",
+        "email": "karthickmuthu43@gmail.com",
+        "mobile_number": "9500888546",
+        "password": "$2y$10$JeCWdGmUn9hcA.AQOjJg9OMh2i/cUeKK5v0.ucM7Rn8PQVMWNszUq",
+        "api_key": "CDEFG9335fgh18281",
+        "days": 13,
+        "month": "March",
+        "year": "1991",
+        "gender": "male",
+        "hobbies": "cooking,learning,photography",
+        "forgot_key": "",
+        "profile_picture": "",
+        "login_cookie": "a2FydGhpY2ttdXRodTQzQGdtYWlsLmNvbQ==1791608211",
+        "google_signin": 0,
+        "google_auth_id": "",
+        "facebook_signin": 0,
+        "facebook_id": "",
+        "referral_code": "UV7473GHI51",
+        "wallet_amount": 0,
+        "device_id": null,
+        "device_token": null,
+        "is_verified": 1,
+        "admin_verify": 0,
+        "admin_verified": 0,
+        "flight_access": "no",
+        "device_type": null,
+        "status": "AC",
+        "travel_access": "no",
+        "grocery_front_access": "yes",
+        "travel_with_api_access": "no",
+        "sample_api_access": "no",
+        "database_access": "no",
+        "admin_panel_access": "no",
+        "mobile_app_access": "no",
+        "faq_set1_access": "yes",
+        "faq_set2_access": "yes",
+        "faq_set3_access": "no",
+        "faq_set4_access": "no",
+        "created_at": "2026-05-28 11:39:44",
+        "updated_at": "2026-10-17 10:29:43",
+        "refer_screen": "Ask your friends to signup with your referral code. Once done, both you and your friend each earn $ 5",
+        "logtoken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjEyZTIwZjQ2OTQzYmZlNjllMWRiOGU4YjA2NjhmNGMzZWRmMGU1YTE5ZWI0ZjM4ZTNiNmMyM2VjM2U5NThiMDFhMmM5ODkxM2NhYWUwZjA2In0.eyJhdWQiOiIzIiwianRpIjoiMTJlMjBmNDY5NDNiZmU2OWUxZGI4ZThiMDY2OGY0YzNlZGYwZTVhMTllYjRmMzhlM2I2YzIzZWMzZTk1OGIwMWEyYzk4OTEzY2FhZTBmMDYiLCJpYXQiOjE3OTMzNzE1NDQsIm5iZiI6MTc5MzM3MTU0NCwiZXhwIjoxODI0OTA3NTQ0LCJzdWIiOiI4MzQiLCJzY29wZXMiOltdfQ.jqUgMGtWK9mMQHom-huEz7iNB4Lqu9wtB4IVizMUBaeMHzSRr_2ndC_VDlY8qkRliQdnbjmIVgqXnZUpe-3Ojdo37hYdKjITn2GsbKjBm_Nn-iGC7AqiCRotJEIkH1Vxix7ekEwzDTsaBQgEyL6FWF5-QmyUYOHnRAYc7pBsbpnWeEz6k8jyC7alST2VSlVW2hyAgjzZTgv-9YgxcS4Laa4LJ-QESxlgNk7Y0NOxiGcTUc029Zlf9URsXfhh0N15GDLHPGUS3VbitoBSyUBw_wfNY4ucsRi43cyRxx2-r4Ex47eXv93prUuDO7r4yshmNgWgJtc-aKmLc5sJYjfoqDyfZDRtI_fSjGCyaeS6UpSuYgsohMm7_6dFT6b4ayCCXoyytdwu3-CiQDLmSNAnlomYpl5dyTjvN55H6YU7ul_ot67sKJEYrELJFgOmSwzz5ozFx4ZB7-1pw7lkTQRyNx5vwFcX5Z41HcKgnM8Rd4G5z99UaMRE4y2vT7F_QH7FLb1joLl9lUFtYlXAYeOI5e-ENuhjeckdHjDS2IAXOUWYsb-0wywVpJ4jKhSpnXv8jv54tH8aRzYpwHEhyn3_X9e-UTpSnmA9XUs6ZBPbkS9e39P9MR95D5iVsealV8jhllNnZJHwRXsfLZMeRADx-_icuACw8tuMJHfP86Y9WVk",
+        "user_role": [
+            {
+                "id": 7,
+                "role": "user",
+                "name": "User",
+                "status": "AC",
+                "created_at": "2019-01-24 11:20:45",
+                "updated_at": "2022-11-18 12:37:46",
+                "pivot": {
+                    "user_id": 834,
+                    "role_id": 7
+                }
+            }
+        ]
+    },
+    "refer_msg": "Register on GoGrocery with UV7473GHI51 and earn $ 5. Download on Android https://play.google.com/store/apps/details?id=com.Go_Grocery&hl=en & Download on iOS https://apps.apple.com/in/app/go-grocery-club/id1512758810",
+    "cart_count": 0,
+    "role": "user"
+}
+{
+    "status": 200,
+    "message": "Login successfully",
+    "data": {
+        "id": 834,
+        "user_code": "USRDZI8g",
+        "first_name": "Karthick",
+        "last_name": "Marimuthu",
+        "email": "karthickmuthu43@gmail.com",
+        "mobile_number": "9500888546",
+        "password": "$2y$10$JeCWdGmUn9hcA.AQOjJg9OMh2i/cUeKK5v0.ucM7Rn8PQVMWNszUq",
+        "api_key": "CDEFG9335fgh18281",
+        "days": 13,
+        "month": "March",
+        "year": "1991",
+        "gender": "male",
+        "hobbies": "cooking,learning,photography",
+        "forgot_key": "",
+        "profile_picture": "",
+        "login_cookie": "a2FydGhpY2ttdXRodTQzQGdtYWlsLmNvbQ==1791608211",
+        "google_signin": 0,
+        "google_auth_id": "",
+        "facebook_signin": 0,
+        "facebook_id": "",
+        "referral_code": "UV7473GHI51",
+        "wallet_amount": 0,
+        "device_id": null,
+        "device_token": null,
+        "is_verified": 1,
+        "admin_verify": 0,
+        "admin_verified": 0,
+        "flight_access": "no",
+        "device_type": null,
+        "status": "AC",
+        "travel_access": "no",
+        "grocery_front_access": "yes",
+        "travel_with_api_access": "no",
+        "sample_api_access": "no",
+        "database_access": "no",
+        "admin_panel_access": "no",
+        "mobile_app_access": "no",
+        "faq_set1_access": "yes",
+        "faq_set2_access": "yes",
+        "faq_set3_access": "no",
+        "faq_set4_access": "no",
+        "created_at": "2026-05-28 11:39:44",
+        "updated_at": "2026-10-17 10:29:43",
+        "refer_screen": "Ask your friends to signup with your referral code. Once done, both you and your friend each earn $ 5",
+        "logtoken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjEyZTIwZjQ2OTQzYmZlNjllMWRiOGU4YjA2NjhmNGMzZWRmMGU1YTE5ZWI0ZjM4ZTNiNmMyM2VjM2U5NThiMDFhMmM5ODkxM2NhYWUwZjA2In0.eyJhdWQiOiIzIiwianRpIjoiMTJlMjBmNDY5NDNiZmU2OWUxZGI4ZThiMDY2OGY0YzNlZGYwZTVhMTllYjRmMzhlM2I2YzIzZWMzZTk1OGIwMWEyYzk4OTEzY2FhZTBmMDYiLCJpYXQiOjE3OTMzNzE1NDQsIm5iZiI6MTc5MzM3MTU0NCwiZXhwIjoxODI0OTA3NTQ0LCJzdWIiOiI4MzQiLCJzY29wZXMiOltdfQ.jqUgMGtWK9mMQHom-huEz7iNB4Lqu9wtB4IVizMUBaeMHzSRr_2ndC_VDlY8qkRliQdnbjmIVgqXnZUpe-3Ojdo37hYdKjITn2GsbKjBm_Nn-iGC7AqiCRotJEIkH1Vxix7ekEwzDTsaBQgEyL6FWF5-QmyUYOHnRAYc7pBsbpnWeEz6k8jyC7alST2VSlVW2hyAgjzZTgv-9YgxcS4Laa4LJ-QESxlgNk7Y0NOxiGcTUc029Zlf9URsXfhh0N15GDLHPGUS3VbitoBSyUBw_wfNY4ucsRi43cyRxx2-r4Ex47eXv93prUuDO7r4yshmNgWgJtc-aKmLc5sJYjfoqDyfZDRtI_fSjGCyaeS6UpSuYgsohMm7_6dFT6b4ayCCXoyytdwu3-CiQDLmSNAnlomYpl5dyTjvN55H6YU7ul_ot67sKJEYrELJFgOmSwzz5ozFx4ZB7-1pw7lkTQRyNx5vwFcX5Z41HcKgnM8Rd4G5z99UaMRE4y2vT7F_QH7FLb1joLl9lUFtYlXAYeOI5e-ENuhjeckdHjDS2IAXOUWYsb-0wywVpJ4jKhSpnXv8jv54tH8aRzYpwHEhyn3_X9e-UTpSnmA9XUs6ZBPbkS9e39P9MR95D5iVsealV8jhllNnZJHwRXsfLZMeRADx-_icuACw8tuMJHfP86Y9WVk",
+        "user_role": [
+            {
+                "id": 7,
+                "role": "user",
+                "name": "User",
+                "status": "AC",
+                "created_at": "2019-01-24 11:20:45",
+                "updated_at": "2022-11-18 12:37:46",
+                "pivot": {
+                    "user_id": 834,
+                    "role_id": 7
+                }
+            }
+        ]
+    },
+    "refer_msg": "Register on GoGrocery with UV7473GHI51 and earn $ 5. Download on Android https://play.google.com/store/apps/details?id=com.Go_Grocery&hl=en & Download on iOS https://apps.apple.com/in/app/go-grocery-club/id1512758810",
+    "cart_count": 0,
+    "role": "user"
+}
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to the login endpoint&amp#27;[39m                                                &amp#27;[90m# com.omrbranch.stepdefinition.TC001_LoginStep.user_sends_request_to_the_login_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                                     &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjEyZTIwZjQ2OTQzYmZlNjllMWRiOGU4YjA2NjhmNGMzZWRmMGU1YTE5ZWI0ZjM4ZTNiNmMyM2VjM2U5NThiMDFhMmM5ODkxM2NhYWUwZjA2In0.eyJhdWQiOiIzIiwianRpIjoiMTJlMjBmNDY5NDNiZmU2OWUxZGI4ZThiMDY2OGY0YzNlZGYwZTVhMTllYjRmMzhlM2I2YzIzZWMzZTk1OGIwMWEyYzk4OTEzY2FhZTBmMDYiLCJpYXQiOjE3OTMzNzE1NDQsIm5iZiI6MTc5MzM3MTU0NCwiZXhwIjoxODI0OTA3NTQ0LCJzdWIiOiI4MzQiLCJzY29wZXMiOltdfQ.jqUgMGtWK9mMQHom-huEz7iNB4Lqu9wtB4IVizMUBaeMHzSRr_2ndC_VDlY8qkRliQdnbjmIVgqXnZUpe-3Ojdo37hYdKjITn2GsbKjBm_Nn-iGC7AqiCRotJEIkH1Vxix7ekEwzDTsaBQgEyL6FWF5-QmyUYOHnRAYc7pBsbpnWeEz6k8jyC7alST2VSlVW2hyAgjzZTgv-9YgxcS4Laa4LJ-QESxlgNk7Y0NOxiGcTUc029Zlf9URsXfhh0N15GDLHPGUS3VbitoBSyUBw_wfNY4ucsRi43cyRxx2-r4Ex47eXv93prUuDO7r4yshmNgWgJtc-aKmLc5sJYjfoqDyfZDRtI_fSjGCyaeS6UpSuYgsohMm7_6dFT6b4ayCCXoyytdwu3-CiQDLmSNAnlomYpl5dyTjvN55H6YU7ul_ot67sKJEYrELJFgOmSwzz5ozFx4ZB7-1pw7lkTQRyNx5vwFcX5Z41HcKgnM8Rd4G5z99UaMRE4y2vT7F_QH7FLb1joLl9lUFtYlXAYeOI5e-ENuhjeckdHjDS2IAXOUWYsb-0wywVpJ4jKhSpnXv8jv54tH8aRzYpwHEhyn3_X9e-UTpSnmA9XUs6ZBPbkS9e39P9MR95D5iVsealV8jhllNnZJHwRXsfLZMeRADx-_icuACw8tuMJHfP86Y9WVk
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser should verify the login response body contains firstName &amp#27;[1m"Karthick"&amp#27;[22m and save the logtoken&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC001_LoginStep.user_should_verify_the_login_response_body_contains_first_name_and_save_the_logtoken(java.lang.String)&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Verify User Get StateList through API" classname="User API Automation for OMR Branch Hotel Application" time="1.323">
+    <system-out><![CDATA[
+@StateListv
+&amp#27;[1mScenario:&amp#27;[22m Verify User Get StateList through API                                                      &amp#27;[90m# src/test/resources/features/TC002_Address.feature:15&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser adds headers for StateList&amp#27;[39m                                                            &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_adds_headers_for_state_list()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sends &amp#27;[1m"GET"&amp#27;[22m request to StateList endpoint&amp#27;[39m                                              &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_sends_request_to_state_list_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                                   &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+State name of Tamil Nadu  is 35
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser should verify the stateList response message matches &amp#27;[1m"Tamil Nadu"&amp#27;[22m and save the state id&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_should_verify_the_state_list_response_message_matches_and_save_the_state_id(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify User Get City list through API" classname="User API Automation for OMR Branch Hotel Application" time="0.63">
+    <system-out><![CDATA[
+@CityListv
+&amp#27;[1mScenario:&amp#27;[22m Verify User Get City list through API                                                 &amp#27;[90m# src/test/resources/features/TC002_Address.feature:22&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser adds headers for CityList&amp#27;[39m                                                        &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_adds_headers_for_city_list()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser adds request body with state id for city list&amp#27;[39m                                     &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_adds_request_body_with_state_id_for_city_list()&amp#27;[39m
+200
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to CityList endpoint&amp#27;[39m                                          &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_sends_request_to_city_list_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                              &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+City name of Yercaud  is 4440
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser should verify the cityList response message matches &amp#27;[1m"Yercaud"&amp#27;[22m and save the city id&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_should_verify_the_city_list_response_message_matches_and_save_the_city_id(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify add user address through API" classname="User API Automation for OMR Branch Hotel Application" time="1.723">
+    <system-out><![CDATA[
+@AddAddress
+&amp#27;[1mScenario Outline:&amp#27;[22m Verify add user address through API                                                                                             &amp#27;[90m# src/test/resources/features/TC002_Address.feature:39&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser adds headers and bearer authorization for accessing address endpoints&amp#27;[39m                                                              &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_adds_headers_and_bearer_authorization_for_accessing_address_endpoints()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser adds request body for add new address &amp#27;[1m"Karthick"&amp#27;[22m,&amp#27;[1m"Muthu"&amp#27;[22m,&amp#27;[1m"9500888546"&amp#27;[22m,&amp#27;[1m"Apt-123"&amp#27;[22m,&amp#27;[1m"35"&amp#27;[22m,&amp#27;[1m"4440"&amp#27;[22m,&amp#27;[1m"101"&amp#27;[22m,&amp#27;[1m"600100"&amp#27;[22m,&amp#27;[1m"123, OMR Street"&amp#27;[22m,&amp#27;[1m"Home"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_adds_request_body_for_add_new_address(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                                                                                &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+200
+{
+    "status": 200,
+    "message": "Address added successfully",
+    "address_id": 41807
+}
+{
+    "status": 200,
+    "message": "Address added successfully",
+    "address_id": 41807
+}
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to addUserAddress endpoint&amp#27;[39m                                                                                      &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_sends_request_to_add_user_address_endpoint(java.lang.String)&amp#27;[39m
+41807
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser should verify the addUserAddress response message matches &amp#27;[1m"Address added successfully"&amp#27;[22m and save the address id&amp#27;[39m                       &amp#27;[90m# com.omrbranch.stepdefinition.TC002_Address.user_should_verify_the_add_user_address_response_message_matches_and_save_the_address_id(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify cart is already empty" classname="Search Product and Create Order via API" time="0.002">
+    <system-out><![CDATA[
+@Cart
+&amp#27;[1mScenario:&amp#27;[22m Verify cart is already empty                                          &amp#27;[90m# src/test/resources/features/TC003_CreateOrder.feature:13&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser sets bearer authorization for ClearCart endpoint&amp#27;[39m                 &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_bearer_authorization_for_clear_cart_endpoint()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sends &amp#27;[1m"GET"&amp#27;[22m request to the ClearCart endpoint&amp#27;[39m                     &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sends_request_to_the_clear_cart_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                              &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the ClearCart response message is &amp#27;[1m"Currently Your Cart is empty"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.verify_the_clear_cart_response_message_is(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Search for product and save category/product IDs" classname="Search Product and Create Order via API" time="0.821">
+    <system-out><![CDATA[
+@product
+&amp#27;[1mScenario:&amp#27;[22m Search for product and save category/product IDs                                                                                                                                          &amp#27;[90m# src/test/resources/features/TC003_CreateOrder.feature:20&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser sets headers for SearchProduct&amp#27;[39m                                                                                                                                                       &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_headers_for_search_product()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sets request body to search for product &amp#27;[1m"Nuts"&amp#27;[22m&amp#27;[39m                                                                                                                                        &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_request_body_to_search_for_product(java.lang.String)&amp#27;[39m
+200
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to the SearchProduct endpoint&amp#27;[39m                                                                                                                                     &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sends_request_to_the_search_product_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                                                                                                                                  &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+Product ID :18
+Catagory Id:4
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the search result includes product name &amp#27;[1m"Happilo 100% Natural Premium California Almonds | Premium Badam Giri in Fruit & Nuts"&amp#27;[22m and Save the category ID and product ID from response&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.verify_the_search_result_includes_product_name_and_save_the_category_id_and_product_id_from_response(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Retrieve product variant from search resultt" classname="Search Product and Create Order via API" time="0.617">
+    <system-out><![CDATA[
+@Variant
+&amp#27;[1mScenario:&amp#27;[22m Retrieve product variant from search resultt                                         &amp#27;[90m# src/test/resources/features/TC003_CreateOrder.feature:28&amp#27;[39m
+eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjEyZTIwZjQ2OTQzYmZlNjllMWRiOGU4YjA2NjhmNGMzZWRmMGU1YTE5ZWI0ZjM4ZTNiNmMyM2VjM2U5NThiMDFhMmM5ODkxM2NhYWUwZjA2In0.eyJhdWQiOiIzIiwianRpIjoiMTJlMjBmNDY5NDNiZmU2OWUxZGI4ZThiMDY2OGY0YzNlZGYwZTVhMTllYjRmMzhlM2I2YzIzZWMzZTk1OGIwMWEyYzk4OTEzY2FhZTBmMDYiLCJpYXQiOjE3OTMzNzE1NDQsIm5iZiI6MTc5MzM3MTU0NCwiZXhwIjoxODI0OTA3NTQ0LCJzdWIiOiI4MzQiLCJzY29wZXMiOltdfQ.jqUgMGtWK9mMQHom-huEz7iNB4Lqu9wtB4IVizMUBaeMHzSRr_2ndC_VDlY8qkRliQdnbjmIVgqXnZUpe-3Ojdo37hYdKjITn2GsbKjBm_Nn-iGC7AqiCRotJEIkH1Vxix7ekEwzDTsaBQgEyL6FWF5-QmyUYOHnRAYc7pBsbpnWeEz6k8jyC7alST2VSlVW2hyAgjzZTgv-9YgxcS4Laa4LJ-QESxlgNk7Y0NOxiGcTUc029Zlf9URsXfhh0N15GDLHPGUS3VbitoBSyUBw_wfNY4ucsRi43cyRxx2-r4Ex47eXv93prUuDO7r4yshmNgWgJtc-aKmLc5sJYjfoqDyfZDRtI_fSjGCyaeS6UpSuYgsohMm7_6dFT6b4ayCCXoyytdwu3-CiQDLmSNAnlomYpl5dyTjvN55H6YU7ul_ot67sKJEYrELJFgOmSwzz5ozFx4ZB7-1pw7lkTQRyNx5vwFcX5Z41HcKgnM8Rd4G5z99UaMRE4y2vT7F_QH7FLb1joLl9lUFtYlXAYeOI5e-ENuhjeckdHjDS2IAXOUWYsb-0wywVpJ4jKhSpnXv8jv54tH8aRzYpwHEhyn3_X9e-UTpSnmA9XUs6ZBPbkS9e39P9MR95D5iVsealV8jhllNnZJHwRXsfLZMeRADx-_icuACw8tuMJHfP86Y9WVk
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser sets bearer authorization for GetSearchProductList endpoint&amp#27;[39m                     &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_bearer_authorization_for_get_search_product_list_endpoint()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sets request body with saved product ID&amp#27;[39m                                          &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_request_body_with_saved_product_id()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to the GetSearchProductList endpoint&amp#27;[39m                         &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sends_request_to_the_get_search_product_list_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                             &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+Specification Verified : 1 kg
+Variation ID : 24
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the response includes product with specification &amp#27;[1m"1 kg"&amp#27;[22m and save the variant ID&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.verify_the_response_includes_product_with_specification_and_save_the_variant_id(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Add searched product to cart" classname="Search Product and Create Order via API" time="1.322">
+    <system-out><![CDATA[
+@Addtocart
+&amp#27;[1mScenario:&amp#27;[22m Add searched product to cart                                   &amp#27;[90m# src/test/resources/features/TC003_CreateOrder.feature:36&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser sets bearer authorization for AddToCart endpoint&amp#27;[39m          &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_bearer_authorization_for_add_to_cart_endpoint()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sets request body using saved variant ID&amp#27;[39m                   &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_request_body_using_saved_variant_id()&amp#27;[39m
+{
+    "status": 200,
+    "message": "Product added in cart",
+    "currency": "$",
+    "cart_count": 1,
+    "data": {
+        "id": 18,
+        "product_code": "PROD3368",
+        "image": "https://omrbranch.com/uploads/products/16576077841.jpg",
+        "name": "Happilo 100% Natural Premium California Almonds | Premium Badam Giri",
+        "description": "<h1 class=\"a-size-base-plus a-text-bold\" style=\"padding: 0px 0px 4px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; text-rendering: optimizelegibility; color: rgb(15, 17, 17); font-family: \"Amazon Ember\", Arial, sans-serif; font-weight: 700 !important; font-size: 16px !important; line-height: 24px !important;\">About this item</h1><ul class=\"a-unordered-list a-vertical a-spacing-mini\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 18px; color: rgb(15, 17, 17); padding: 0px; font-family: \"Amazon Ember\", Arial, sans-serif; font-size: 14px;\"><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Suitable for all age groups</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">100% Real nuts- good for an active life style</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Low glycemic Index</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">High protein, dietary fiber, no gluten, NON-GMO, zero trans fat, zero cholesterol</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">A pack of nut that prepares you for a power packed day ahead</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Happilo Zip Lock Pouch with airtight seal to ensure the product is protected and fresh. Quality assured - Happilo products are rigorously tested against the industry's best quality standards</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Rich source of Omega-3, Anti oxidants, Vitamins, Calcium, Iron & Magnesium</span></li></ul>",
+        "manage_stock": "1",
+        "quick_grab": "0",
+        "is_exclusive": "0",
+        "status": "AC",
+        "cart_count": 1,
+        "price": "600.00",
+        "special_price": "580.00",
+        "discount": 3,
+        "product_variation_option": [
+            8
+        ],
+        "product_variation_id": 24,
+        "variations": [
+            {
+                "id": 23,
+                "product_id": 18,
+                "weight": "",
+                "unit_id": 0,
+                "qty": 0,
+                "price": "300.00",
+                "special_price": "290.00",
+                "max_qty": 0,
+                "status": "AC",
+                "created_at": "2022-07-12 12:06:24",
+                "updated_at": "2026-05-10 22:46:01",
+                "cart_count": 0,
+                "original_special_price": "290.00",
+                "discount": 3,
+                "is_available": 0,
+                "warning_msg": "Out of Stock",
+                "is_favorite": 0,
+                "specifications": "500 g",
+                "options": [
+                    {
+                        "id": 30,
+                        "product_id": 18,
+                        "variation_id": 23,
+                        "attribute_id": "3",
+                        "attribute_value_id": 7,
+                        "status": "AC",
+                        "created_at": "2022-07-12 12:06:24",
+                        "updated_at": "2022-11-18 07:08:01",
+                        "attribute_option": {
+                            "id": 7,
+                            "attribute_id": 3,
+                            "value": "500 g",
+                            "status": "AC",
+                            "created_at": "2022-04-06 08:37:54",
+                            "updated_at": "2022-09-16 19:21:03"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "product_id": 18,
+                "weight": "",
+                "unit_id": 0,
+                "qty": 1766,
+                "price": "600.00",
+                "special_price": "580.00",
+                "max_qty": 1766,
+                "status": "AC",
+                "created_at": "2022-07-12 12:06:24",
+                "updated_at": "2026-10-30 20:13:56",
+                "cart_count": 1,
+                "discount": 3,
+                "is_available": 2,
+                "is_favorite": 0,
+                "specifications": "1 kg",
+                "options": [
+                    {
+                        "id": 31,
+                        "product_id": 18,
+                        "variation_id": 24,
+                        "attribute_id": "3",
+                        "attribute_value_id": 8,
+                        "status": "AC",
+                        "created_at": "2022-07-12 12:06:24",
+                        "updated_at": "2022-11-18 07:08:01",
+                        "attribute_option": {
+                            "id": 8,
+                            "attribute_id": 3,
+                            "value": "1 kg",
+                            "status": "AC",
+                            "created_at": "2022-04-06 08:37:54",
+                            "updated_at": "2022-09-16 19:21:03"
+                        }
+                    }
+                ]
+            }
+        ],
+        "is_favorite": 0
+    }
+}
+{
+    "status": 200,
+    "message": "Product added in cart",
+    "currency": "$",
+    "cart_count": 1,
+    "data": {
+        "id": 18,
+        "product_code": "PROD3368",
+        "image": "https://omrbranch.com/uploads/products/16576077841.jpg",
+        "name": "Happilo 100% Natural Premium California Almonds | Premium Badam Giri",
+        "description": "<h1 class=\"a-size-base-plus a-text-bold\" style=\"padding: 0px 0px 4px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; text-rendering: optimizelegibility; color: rgb(15, 17, 17); font-family: \"Amazon Ember\", Arial, sans-serif; font-weight: 700 !important; font-size: 16px !important; line-height: 24px !important;\">About this item</h1><ul class=\"a-unordered-list a-vertical a-spacing-mini\" style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 18px; color: rgb(15, 17, 17); padding: 0px; font-family: \"Amazon Ember\", Arial, sans-serif; font-size: 14px;\"><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Suitable for all age groups</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">100% Real nuts- good for an active life style</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Low glycemic Index</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">High protein, dietary fiber, no gluten, NON-GMO, zero trans fat, zero cholesterol</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">A pack of nut that prepares you for a power packed day ahead</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Happilo Zip Lock Pouch with airtight seal to ensure the product is protected and fresh. Quality assured - Happilo products are rigorously tested against the industry's best quality standards</span></li><li style=\"list-style: disc; overflow-wrap: break-word; margin: 0px;\"><span class=\"a-list-item\">Rich source of Omega-3, Anti oxidants, Vitamins, Calcium, Iron & Magnesium</span></li></ul>",
+        "manage_stock": "1",
+        "quick_grab": "0",
+        "is_exclusive": "0",
+        "status": "AC",
+        "cart_count": 1,
+        "price": "600.00",
+        "special_price": "580.00",
+        "discount": 3,
+        "product_variation_option": [
+            8
+        ],
+        "product_variation_id": 24,
+        "variations": [
+            {
+                "id": 23,
+                "product_id": 18,
+                "weight": "",
+                "unit_id": 0,
+                "qty": 0,
+                "price": "300.00",
+                "special_price": "290.00",
+                "max_qty": 0,
+                "status": "AC",
+                "created_at": "2022-07-12 12:06:24",
+                "updated_at": "2026-05-10 22:46:01",
+                "cart_count": 0,
+                "original_special_price": "290.00",
+                "discount": 3,
+                "is_available": 0,
+                "warning_msg": "Out of Stock",
+                "is_favorite": 0,
+                "specifications": "500 g",
+                "options": [
+                    {
+                        "id": 30,
+                        "product_id": 18,
+                        "variation_id": 23,
+                        "attribute_id": "3",
+                        "attribute_value_id": 7,
+                        "status": "AC",
+                        "created_at": "2022-07-12 12:06:24",
+                        "updated_at": "2022-11-18 07:08:01",
+                        "attribute_option": {
+                            "id": 7,
+                            "attribute_id": 3,
+                            "value": "500 g",
+                            "status": "AC",
+                            "created_at": "2022-04-06 08:37:54",
+                            "updated_at": "2022-09-16 19:21:03"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "product_id": 18,
+                "weight": "",
+                "unit_id": 0,
+                "qty": 1766,
+                "price": "600.00",
+                "special_price": "580.00",
+                "max_qty": 1766,
+                "status": "AC",
+                "created_at": "2022-07-12 12:06:24",
+                "updated_at": "2026-10-30 20:13:56",
+                "cart_count": 1,
+                "discount": 3,
+                "is_available": 2,
+                "is_favorite": 0,
+                "specifications": "1 kg",
+                "options": [
+                    {
+                        "id": 31,
+                        "product_id": 18,
+                        "variation_id": 24,
+                        "attribute_id": "3",
+                        "attribute_value_id": 8,
+                        "status": "AC",
+                        "created_at": "2022-07-12 12:06:24",
+                        "updated_at": "2022-11-18 07:08:01",
+                        "attribute_option": {
+                            "id": 8,
+                            "attribute_id": 3,
+                            "value": "1 kg",
+                            "status": "AC",
+                            "created_at": "2022-04-06 08:37:54",
+                            "updated_at": "2022-09-16 19:21:03"
+                        }
+                    }
+                ]
+            }
+        ],
+        "is_favorite": 0
+    }
+}
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to the AddToCart endpoint&amp#27;[39m              &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sends_request_to_the_add_to_cart_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                       &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the AddToCart response message is &amp#27;[1m"Product added in cart"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.verify_the_add_to_cart_response_message_is(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Get user cart and save cart IdD" classname="Search Product and Create Order via API" time="1.033">
+    <system-out><![CDATA[
+@Savecart
+&amp#27;[1mScenario:&amp#27;[22m Get user cart and save cart IdD                            &amp#27;[90m# src/test/resources/features/TC003_CreateOrder.feature:44&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser sets bearer authorization for GetCart endpoint&amp#27;[39m        &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_bearer_authorization_for_get_cart_endpoint()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sends &amp#27;[1m"GET"&amp#27;[22m request to the GetCart endpoint&amp#27;[39m            &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sends_request_to_the_get_cart_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                   &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+Cart ID  is 21269
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the GetCart response message is &amp#27;[1m"OK"&amp#27;[22m Save the cart ID&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.verify_the_get_cart_response_message_is_save_the_cart_id(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Set address for checkout" classname="Search Product and Create Order via API" time="0.599">
+    <system-out><![CDATA[
+@Setaddress
+&amp#27;[1mScenario:&amp#27;[22m Set address for checkout                                            &amp#27;[90m# src/test/resources/features/TC003_CreateOrder.feature:75&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser sets bearer authorization for SetAddress endpoint&amp#27;[39m              &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_bearer_authorization_for_set_address_endpoint()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sets request body with saved address ID and cart ID&amp#27;[39m             &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_request_body_with_saved_address_id_and_cart_id()&amp#27;[39m
+200
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to the SetAddress endpoint&amp#27;[39m                  &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sends_request_to_the_set_address_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                            &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the SetAddress response message is &amp#27;[1m"Cart updated successfully"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.verify_the_set_address_response_message_is(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+  <testcase name="Create an order with payment" classname="Search Product and Create Order via API" time="6.154">
+    <system-out><![CDATA[
+@CreateOrder
+&amp#27;[1mScenario:&amp#27;[22m Create an order with payment                                                                                                       &amp#27;[90m# src/test/resources/features/TC003_CreateOrder.feature:83&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser sets bearer authorization for CreateOrder endpoint&amp#27;[39m                                                                            &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_bearer_authorization_for_create_order_endpoint()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser sets request body to create order with payment details &amp#27;[1m"<Select card>"&amp#27;[22m, &amp#27;[1m"<CardNo>"&amp#27;[22m, &amp#27;[1m"<CardName>"&amp#27;[22m, &amp#27;[1m"<Month>"&amp#27;[22m, &amp#27;[1m"<Year>"&amp#27;[22m, &amp#27;[1m"<CVV>"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sets_request_body_to_create_order_with_payment_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,io.cucumber.datatable.DataTable)&amp#27;[39m
+      | Select card | CardNo           | CardName | Month | Year | CVV |
+      | visa        | 5555555555552222 | John Doe | March | 2028 | 123 |
+      | Mastercard  | 5555555555554444 | John Doe | March | 2024 | 123 |
+      | Amex        | 5555555555550000 | John Doe | March | 2024 | 123 |
+      | Discover    | 5555555555556666 | John Doe | March | 2024 | 123 |
+{
+    "status": 200,
+    "message": "Order created successfully",
+    "currency": "$",
+    "data": {
+        "order_code": "ORDEzyPd",
+        "order_no": 737587,
+        "user_id": 834,
+        "address_id": 41807,
+        "payment_method": "debit_card",
+        "wallet": "0",
+        "updated_at": "2026-10-30 20:15:55",
+        "created_at": "2026-10-30 20:15:55",
+        "id": 23322,
+        "total_amount": "580.00",
+        "coupon_discount": "0.00",
+        "shipping_fee": "0.00",
+        "grand_total": "580.00",
+        "savings": "20.00",
+        "credits_used": "0.00",
+        "amount": 560,
+        "user_address": {
+            "id": 41807,
+            "address_code": "ADDDAJxG",
+            "user_id": 834,
+            "first_name": "Karthick",
+            "last_name": "Muthu",
+            "mobile": "9500888546",
+            "apartment": "Apt-123",
+            "address": "123, OMR Street",
+            "country_id": 101,
+            "state_id": 35,
+            "city_id": 4440,
+            "zipcode": "600100",
+            "lat": null,
+            "lng": null,
+            "default": "0",
+            "status": "AC",
+            "address_type": "Home",
+            "created_at": "2026-10-30 20:15:48",
+            "updated_at": "2026-10-30 20:15:48",
+            "acity": {
+                "id": 4440,
+                "name": "Yercaud"
+            },
+            "astate": {
+                "id": 35,
+                "name": "Tamil Nadu",
+                "country_id": 101,
+                "status": "AC",
+                "country": {
+                    "id": 101,
+                    "code": "IN",
+                    "name": "India",
+                    "phonecode": 91,
+                    "currency_name": "Indian rupee",
+                    "currency_symbol": "₹",
+                    "currency_code": "INR",
+                    "status": "AC"
+                }
+            },
+            "acountry": {
+                "id": 101,
+                "code": "IN",
+                "name": "India",
+                "phonecode": 91,
+                "currency_name": "Indian rupee",
+                "currency_symbol": "₹",
+                "currency_code": "INR",
+                "status": "AC"
+            }
+        }
+    },
+    "order_id": 23322
+}
+{
+    "status": 200,
+    "message": "Order created successfully",
+    "currency": "$",
+    "data": {
+        "order_code": "ORDEzyPd",
+        "order_no": 737587,
+        "user_id": 834,
+        "address_id": 41807,
+        "payment_method": "debit_card",
+        "wallet": "0",
+        "updated_at": "2026-10-30 20:15:55",
+        "created_at": "2026-10-30 20:15:55",
+        "id": 23322,
+        "total_amount": "580.00",
+        "coupon_discount": "0.00",
+        "shipping_fee": "0.00",
+        "grand_total": "580.00",
+        "savings": "20.00",
+        "credits_used": "0.00",
+        "amount": 560,
+        "user_address": {
+            "id": 41807,
+            "address_code": "ADDDAJxG",
+            "user_id": 834,
+            "first_name": "Karthick",
+            "last_name": "Muthu",
+            "mobile": "9500888546",
+            "apartment": "Apt-123",
+            "address": "123, OMR Street",
+            "country_id": 101,
+            "state_id": 35,
+            "city_id": 4440,
+            "zipcode": "600100",
+            "lat": null,
+            "lng": null,
+            "default": "0",
+            "status": "AC",
+            "address_type": "Home",
+            "created_at": "2026-10-30 20:15:48",
+            "updated_at": "2026-10-30 20:15:48",
+            "acity": {
+                "id": 4440,
+                "name": "Yercaud"
+            },
+            "astate": {
+                "id": 35,
+                "name": "Tamil Nadu",
+                "country_id": 101,
+                "status": "AC",
+                "country": {
+                    "id": 101,
+                    "code": "IN",
+                    "name": "India",
+                    "phonecode": 91,
+                    "currency_name": "Indian rupee",
+                    "currency_symbol": "₹",
+                    "currency_code": "INR",
+                    "status": "AC"
+                }
+            },
+            "acountry": {
+                "id": 101,
+                "code": "IN",
+                "name": "India",
+                "phonecode": 91,
+                "currency_name": "Indian rupee",
+                "currency_symbol": "₹",
+                "currency_code": "INR",
+                "status": "AC"
+            }
+        }
+    },
+    "order_id": 23322
+}
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser sends &amp#27;[1m"POST"&amp#27;[22m request to the CreateOrder endpoint&amp#27;[39m                                                                                &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.user_sends_request_to_the_create_order_endpoint(java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser should verify the status code is &amp#27;[1m200&amp#27;[22m&amp#27;[39m                                                                                           &amp#27;[90m# com.omrbranch.stepdefinition.CommonStep.user_should_verify_the_status_code_is(int)&amp#27;[39m
+order no is :737587
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mVerify the CreateOrder response message is &amp#27;[1m"Order created successfully"&amp#27;[22m&amp#27;[39m                                                              &amp#27;[90m# com.omrbranch.stepdefinition.TC003_CreateOrder.verify_the_create_order_response_message_is(java.lang.String)&amp#27;[39m
+]]></system-out>
+  </testcase>
+</testsuite>
